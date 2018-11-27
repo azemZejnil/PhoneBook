@@ -1,4 +1,4 @@
-package com.example.azem.phonebook;
+package com.example.azem.phonebook.db;
 
 import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.room.Database;
@@ -7,6 +7,8 @@ import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
+
+import com.example.azem.phonebook.Contact;
 
 @Database(entities = Contact.class, version = 1)
 public abstract class ContactsDatabase extends RoomDatabase {

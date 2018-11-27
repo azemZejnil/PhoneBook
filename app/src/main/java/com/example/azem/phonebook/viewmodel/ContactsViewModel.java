@@ -1,9 +1,12 @@
-package com.example.azem.phonebook;
+package com.example.azem.phonebook.viewmodel;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;
 import android.support.annotation.NonNull;
+
+import com.example.azem.phonebook.Contact;
+import com.example.azem.phonebook.repository.ContactsRepository;
 
 import java.util.List;
 

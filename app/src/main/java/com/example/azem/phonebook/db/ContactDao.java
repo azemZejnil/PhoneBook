@@ -1,4 +1,4 @@
-package com.example.azem.phonebook;
+package com.example.azem.phonebook.db;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;
@@ -6,6 +6,8 @@ import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 import android.arch.persistence.room.Update;
+
+import com.example.azem.phonebook.Contact;
 
 import java.util.List;
 

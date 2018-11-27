@@ -1,8 +1,12 @@
-package com.example.azem.phonebook;
+package com.example.azem.phonebook.repository;
 
 import android.app.Application;
 import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
+
+import com.example.azem.phonebook.Contact;
+import com.example.azem.phonebook.db.ContactDao;
+import com.example.azem.phonebook.db.ContactsDatabase;
 
 import java.util.List;
 
